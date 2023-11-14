@@ -1,9 +1,7 @@
 on:
-  schedule:
-    - cron: "0 0 * * *" # Mise à jour a 00:00
   workflow_dispatch:
   push:
-    branches: ["main"]
+    branches: main
 
 name: Update
 
